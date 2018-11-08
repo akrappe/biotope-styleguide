@@ -1,46 +1,74 @@
-[  
-    {  
-       "biotope":{  
-          "componentName":"grid",
-          "description":"Grid demo with all kinds of background and grid combinations",
-          "layout":"layouts/layout.default",
-          "entryPoint":"grid.hbs",
-          "category":"Layout",
-          "componentVariants":[  
-             "fullsize",
-             "blub"
-          ],
-          "type":"structuralComponent",
-          "allowedInGrid":[  
- 
-          ],
-          "allowedNested":[  
-             "componentX"
-          ],
-          "path":"src/components/framework/grid/grid.hbs",
-          "url":"layout.grid.html"
-       }
-    },
-    {  
-       "biotope":{  
-          "componentName":"grid2",
-          "description":"Grid demo with all kinds of background and grid combinations",
-          "layout":"layouts/layout.default",
-          "entryPoint":"grid.hbs",
-          "category":"Layout",
-          "componentVariants":[  
-             "fullsize",
-             "blub"
-          ],
-          "type":"structuralComponent",
-          "allowedInGrid":[  
- 
-          ],
-          "allowedNested":[  
-             "componentX"
-          ],
-          "path":"src/components/framework/grid2/grid.hbs",
-          "url":"layout.grid2.html"
-       }
+[
+  {
+    "biotope": {
+      "componentName": "grid",
+      "description": "Grid demo with all kinds of background and grid combinations",
+      "layout": "layouts/layout.default",
+      "entryPoint": "grid.hbs",
+      "category": "Layout",
+      "componentVariants": [
+        "fullsize"
+      ],
+      "type": "structuralComponent",
+      "allowedInGrid": [],
+      "allowedNested": [
+        "componentX"
+      ],
+      "path": "src/components/framework/grid/grid.hbs",
+      "url": "layout.grid.html"
     }
- ]
+  },
+  {
+    "biotope": {
+      "componentName": "grid2",
+      "description": "Grid demo with all kinds of background and grid combinations",
+      "layout": "layouts/layout.default",
+      "entryPoint": "grid.hbs",
+      "category": "Layout",
+      "componentVariants": [
+        "fullsize"
+      ],
+      "type": "structuralComponent",
+      "allowedInGrid": [],
+      "allowedNested": [
+        "componentX"
+      ],
+      "path": "src/components/framework/grid2/grid.hbs",
+      "url": "layout.grid2.html"
+    }
+  },
+  {
+    "biotope": {
+      "componentName": "Accordion",
+      "description": "Accordion",
+      "layout": "layouts/layout.default",
+      "entryPoint": "grid.hbs",
+      "category": "Accordion",
+      "componentVariants": [
+        "fullsize",
+        "sidebar"
+      ],
+      "type": "component",
+      "allowedInGrid": [],
+      "allowedNested": [],
+      "path": "src/components/accordion/accordion.hbs",
+      "url": "component.accordion.html"
+    }
+  },
+  {
+    "biotope": {
+      "componentName": "Stage",
+      "description": "Stage",
+      "layout": "layouts/layout.default",
+      "entryPoint": "grid.hbs",
+      "category": "Stage",
+      "componentVariants": [
+        "fullsize"      ],
+      "type": "component",
+      "allowedInGrid": [],
+      "allowedNested": [],
+      "path": "src/components/stage/stage.hbs",
+      "url": "component.stage.html"
+    }
+  }
+]
